@@ -2,5 +2,8 @@ _G.THUBSETTING = {
     ["Ver"] = '1.0.0 beta',
     ["Maintenance"] = false,
     ["SynOnly"] = true,
-    ["OwnerIDB9215A3B-97D3-422D-A3AB-467CFE8AF962"] = true
+    ["IDB9215A3B-97D3-422D-A3AB-467CFE8AF962"] = true,
+    ["ID"] = true,
+    ["ID"] = true,
+    ["ID"] = true
 }
