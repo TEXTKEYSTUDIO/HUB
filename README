@@ -1,5 +1,5 @@
 _G.THUBSETTING = {
-    ["Ver"] = '1.0.0 beta',
+    ["Ver"] = '1.1.2 beta',
     ["Maintenance"] = false,
     ["SynOnly"] = true,
     ["IDB9215A3B-97D3-422D-A3AB-467CFE8AF962"] = true,
