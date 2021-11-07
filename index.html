@@ -1,14 +1,25 @@
+<!doctype html>
 <html lang="ko">
   <head>
   <meta charset="utf-8">
-    <title>HTML</title>
+    <title>CSS</title>
     <style>
-      video { max-width: 100%; display: block; margin: 20px auto; }
+      body { padding: 0px; margin: 0px; }
+      .jb-box { width: 100%; height: 500px; overflow: hidden;margin: 0px auto; position: relative; }
+      video { width: 100%; }
+      .jb-text { position: absolute; top: 50%; width: 100%; }
+      .jb-text p { margin-top: -24px; text-align: center; font-size: 48px; color: #ffffff; }
     </style>
   </head>
   <body>
-    <video muted autoplay loop>
-      <source src="//cdn01.x-plarium.com/browser/content/landings/backgrounds/cave/001/cave_video_no_char.mp4"">
-    </video>
+    <div class="jb-box">
+      <video muted autoplay loop>
+        <source src="//cdn01.x-plarium.com/browser/content/landings/backgrounds/cave/001/cave_video_no_char.mp4">
+        <strong>Your browser does not support the video tag.</strong>
+      </video>
+      <div class="jb-text">
+        <p>Lorem Ipsum Dolor</p>
+      </div>
+    </div>
   </body>
 </html>
